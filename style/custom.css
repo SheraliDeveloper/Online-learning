@@ -1,0 +1,207 @@
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__container {
+    background-image: none;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #222;
+}
+ 
+
+
+/* ---- Navbar ---- */
+.navbar-brand {
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.nav-item:hover{
+  color: blue;
+}
+
+/* ---- Hero ---- */
+.hero {
+  padding-bottom: 200px;
+}
+
+.hero__container {
+  height: 739px;
+  background-size: cover;
+  background-image: url(../assets/images/Homebg.webp);
+  object-fit: cover;
+  opacity: 0.9;
+
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.hero__statistics {
+  box-shadow: 0 11px 35px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+  position: relative;
+  border-radius: 4px;
+  padding: 56px 86px;
+  top: 600px;
+}
+
+.hero__subtitile {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 5000px;
+}
+
+.hero__card-img {
+  width: 91px;
+  height: 98px;
+}
+
+/* ---- About ---- */
+.about {
+  padding-top: 100px;
+}
+
+/* ---- Service ---- */
+.service__card-img {
+  height: 100px;
+  width: 100px;
+}
+
+/* ---- Course ---- */
+.course{
+  background: #ecf4ff;
+}
+
+.card__author-img{
+  height: 245px;
+}
+
+.card__icon{
+  height: 25px;
+  width: 25px;
+}
+
+.card__img-box{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b4bcc4;
+  border-radius: 50%; 
+}
+
+.card__profile{
+  height: 34px;
+  width: 34px;
+}
+
+
+/* ---- Mentor ---- */
+.mentor__card{
+  box-shadow: 0 11px 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.mentor__img{
+  height: 340px;
+  object-fit: cover;
+}
+
+/* ---- Event ---- */
+.event__img{
+  height: 240px;
+}
+
+/* ---- Rank ---- */
+.rank{
+  background: #d3e5fe;
+}
+
+/* ---- Blog ---- */
+.blog__card{
+  box-shadow: 0 11px 35px 0 rgba(0, 0, 0, 0.08);
+}
+/* ---- Testemonial ---- */
+.testemonial__card{
+  box-shadow: 0 13px 45px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.testemonial__img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* ---- Suscribe ---- */
+.suscribe__container{
+  background: #086cf9;
+  border-radius: 6px;
+}
+
+.suscribe-btn{
+  position: relative;
+  border-radius: 4px;
+  margin: 7px 5px;
+  width: 115px;
+  height: 48px;
+}
+.suscribe__input{
+  height: 64px;
+}
+
+/* ---- Footer ---- */  
+.footer{
+  background: #d3e5fe;
+}
+
+.footer__text{
+  font-weight: 700;
+  font-size: 30px;
+  color: #222;
+}
+/* ---- Contact ----- */
+.contact__img{
+  height: 27px;
+  width: 27px;
+}
+
+.contact__btn{
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 38px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-size: 200% auto
+}
+
+
+.contact__btn:hover {
+  background-position: right center;
+  color: #fff
+}
